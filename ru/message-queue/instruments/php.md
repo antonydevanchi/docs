@@ -32,7 +32,7 @@ $ export AWS_SECRET_ACCESS_KEY="<секретный ключ>"
 
 require 'vendor/autoload.php';
 
-use Aws\SQS\SQSClient;
+use Aws\Sqs\SqsClient;
 use Aws\Exception\AwsException;
 
 $ymq = new Aws\SQS\SQSClient([
